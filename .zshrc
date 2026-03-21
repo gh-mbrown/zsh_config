@@ -115,3 +115,8 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+[[ ! -r '/home/mbrown/.opam/opam-init/init.zsh' ]] || source '/home/mbrown/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+
+export PATH="$HOME/.dotnet/tools/:$PATH"
+export PATH="$HOME/.emacs.d/bin/:$PATH"
