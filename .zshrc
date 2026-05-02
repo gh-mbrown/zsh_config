@@ -63,7 +63,7 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM="$HOME/.zshcustom/"
+# ZSH_CUSTOM="$HOME/.zshcustom/"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -80,6 +80,8 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+source $HOME/.zsh_profile
 
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
     ~/.tmux/setup-windows.sh
