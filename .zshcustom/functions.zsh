@@ -1,0 +1,4 @@
+function mc() {
+	mkdir $1
+	cd $1
+}

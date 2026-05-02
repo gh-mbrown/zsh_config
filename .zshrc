@@ -63,7 +63,7 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM="$HOME/.zshcustom/"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -117,4 +117,3 @@ fi
 [[ ! -r '/home/mbrown/.opam/opam-init/init.zsh' ]] || source '/home/mbrown/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 
 export PATH="$HOME/.dotnet/tools/:$PATH"
-export PATH="$HOME/.emacs.d/bin/:$PATH"
